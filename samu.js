@@ -1587,13 +1587,8 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 	    
 	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	//Zona de Comandos🛵
-switch (command) {
-
-case 'help':
-case 'menu':
-case 'comandos':
-reply(${prefix}menu
-case 'menuofc':
+switch (command)
+case 'help'
 
 redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/samu330wabot', '*😊Seamos amigos en facebook!!* https://www.facebook.com/samu330wabot']
 opcion = redes[Math.floor(Math.random() * redes.length)]
